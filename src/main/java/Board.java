@@ -24,13 +24,13 @@ public class Board {
         return 0;
     }
 
-    public boolean isGoal() {
-        // is this board the goal board?
-        return false;
-    }
-
-    public Board twin() {
-        // a board that is obtained by exchanging any pair of blocks
+    public String toString() {
+        // string representation of this board
+        // for example
+        // 3
+        //  1 0 3
+        //  4 2 5
+        //  7 8 6
         return null;
     }
 
@@ -39,18 +39,18 @@ public class Board {
         return false;
     }
 
-    public Iterable<Board> neighbors() {
-        // all neighboring boards
+    public Board twin() {
+        // a board that is obtained by exchanging any pair of blocks
         return null;
     }
 
-    public String toString() {
-        // string representation of this board
-        // for example
-        // 3
-        //  1 0 3
-        //  4 2 5
-        //  7 8 6
+    public boolean isGoal() {
+        // is this board the goal board?
+        return false;
+    }
+
+    public Iterable<Board> neighbors() {
+        // all neighboring boards
         return null;
     }
 
